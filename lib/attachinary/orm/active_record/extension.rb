@@ -22,6 +22,7 @@ module Attachinary
           class_name: '::Attachinary::File',
           dependent: :destroy
       end
+      accepts_nested_attributes_for :"#{relation}", allow_destroy: true
 
 
       # def photo=(file)
