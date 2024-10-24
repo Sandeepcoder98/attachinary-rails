@@ -5,7 +5,7 @@ require "attachinary/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
-  s.name        = "attachinary-rails"
+  s.name        = "attachinary"
   s.version     = Attachinary::VERSION
   s.authors     = ["Sandeep Coder"]
   s.email       = ["sandeep.coder98@gmail.com"]

@@ -28,7 +28,7 @@ First, make sure that you have [cloudinary gem](https://github.com/cloudinary/cl
 
 Add following line to your `Gemfile`:
 
-    gem 'attachinary-rails'
+    gem 'attachinary'
 
 Specify which ORM you wish to use by adding following line to your `application.rb` file (or custom initializer):
 
