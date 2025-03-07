@@ -7,7 +7,7 @@ module Attachinary
       options = attachinary_file_field_options(builder.object, attr_name, options)
       
       # builder.file_field(attr_name, options[:html])
-      builder.file_field(attr_name, options[:html].as_json({}))
+      builder.file_field(attr_name, options[:html].as_json())
     end
 
     def attachinary_file_field_tag(field_name, model, relation, options={})
